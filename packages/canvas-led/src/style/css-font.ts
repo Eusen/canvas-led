@@ -1,0 +1,31 @@
+export class CssFont {
+
+  'font',
+  'fontDisplay',
+  'fontFamily',
+  'fontFeatureSettings',
+  'fontKerning',
+  'fontOpticalSizing',
+  'fontSize',
+  'fontStretch',
+  'fontStyle',
+  'fontVariant',
+  'fontVariantCaps',
+  'fontVariantEastAsian',
+  'fontVariantLigatures',
+  'fontVariantNumeric',
+  'fontVariationSettings',
+  'fontWeight',
+
+  'letterSpacing',
+  'lineBreak',
+  'lineHeight',
+  'color',
+  'willChange',
+  'wordBreak',
+  'wordSpacing',
+  'wordWrap',
+  'writingMode',
+
+  'src',
+}

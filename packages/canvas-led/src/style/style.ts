@@ -1,20 +1,3 @@
-export const TextStyles: (keyof LEDStyleDeclaration)[] = [
-  'color', 'fontSize', 'textAlign', 'fontWeight', 'lineHeight', 'lineBreak'
-];
-
-export const ScalableStyles: (keyof LEDStyleDeclaration)[] = [
-  'left', 'top', 'right', 'bottom', 'width', 'height',
-  'margin', 'marginLeft', 'marginRight', 'marginTop', 'marginBottom',
-  'padding', 'paddingLeft', 'paddingRight', 'paddingTop', 'paddingBottom',
-  'borderWidth', 'borderLeftWidth', 'borderRightWidth', 'borderTopWidth', 'borderBottomWidth'
-];
-
-export const LayoutAffectedStyles: (keyof LEDStyleDeclaration)[] = [
-  'margin', 'marginTop', 'marginBottom', 'marginLeft', 'marginRight',
-  'padding', 'paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight',
-  'width', 'height'
-];
-
 export interface LEDStyleDeclaration {
   left: number;
   top: number;
